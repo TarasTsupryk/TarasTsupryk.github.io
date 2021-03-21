@@ -19,7 +19,7 @@ header{
     height: calc(100vh - 72px);
     background: url('src/png/website\ mockup.jpg') no-repeat center;
     background-size: cover;
-    animation: zoom 15s infinite;
+/*     animation: zoom 15s infinite; */
 }
 
 .intro__container{
