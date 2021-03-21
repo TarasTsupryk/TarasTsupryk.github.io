@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* word-break: break-all; */
+}
+
+/* header */
+
+header{
+    width: 100%;
+    background: #101010;
+    height: 72px;
+}
+
+/* intro */
+.intro{
+    width: 100%;
+    height: calc(100vh - 72px);
+    background: url('src/png/website\ mockup.jpg') no-repeat center;
+    background-size: cover;
+    animation: zoom 15s infinite;
+}
+
+.intro__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 108px 20px 20px;
+}
+
+.intro__title, .intro__subTitle{
+    text-align: center;
+    color: #ffffff;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.intro__title{
+    width: 100%;
+    font-size: 63px;
+    font-family: Helvetica;
+    line-height: 1.21;
+    letter-spacing: -0.32px;
+}
+
+.intro__subTitle{
+    width: 100%;
+    max-width: 600px;
+    font-family: MyanmarSangamMN;
+    font-size: 44px;
+    margin-top: 15px;
+    line-height: 1.27;
+    letter-spacing: -0.22px;
+}
+
+/* wrapper */
+.wrapper{
+    width: 100%;
+    max-width: 1770px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+/* container and section*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px -20px;
+
+}
+section:nth-child(1){
+    margin-top: 180px;
+}
+
+section:nth-child(2){
+    margin-top: 40px;
+}
+
+section:nth-child(3){
+    margin-top: 140px;
+}
+
+section:nth-child(4){
+   margin-top: 80px;
+   margin-bottom: 150px;
+}
+
+.container__item{
+    width: calc(100% / 12 * 4 - 40px);
+    max-width: 500px;
+    margin: 0px 20px;
+}
+.middle__item{
+    max-width: 700px;
+    width: calc(100% / 12 * 6 - 40px);
+}
+.item__img{
+    display: flex;
+}
+
+.item__img img{
+    margin: 0px auto;
+    width: 85%;
+}
+
+.small-img{
+    margin-bottom: 58px;
+}
+
+.small-img img{
+    margin: 0px auto;
+    width: 100%;
+    max-width: 90px;
+}
+
+.member-of-the-team{
+    width: calc(100% / 12 * 4 - 40px);
+    display: flex;
+    margin: 10px 20px;
+}
+
+.member__img, .member__img img{
+    width: 115px;
+}
+.member__img{
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.member__img:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+
+.member__info{
+    margin-left: 40px;
+}
+
+.crowded{
+    position: relative;
+}
+.crowded::after{
+    content: 'show more';
+    position: absolute;
+    bottom: -34px;
+    right: 15px;
+    text-transform: uppercase;
+    color: #04907c;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.53;
+    letter-spacing: -0.08px;
+    cursor: pointer;
+}
+
+
+
+/* footer */
+footer{
+    width: 100%;
+    background: #262626;
+    color: #ccc;
+    
+}
+
+.footer__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 12 * 6);
+    max-width: 700px;
+}
+.social-links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.social-link{
+    margin: 0px 10px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.social-link:hover{
+    transition: 0.3s;
+    transform: scale(1.3);
+}
+.social-link img{
+    width: 100%;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    width: 100%;
+}
+
+.link{
+    width: calc(100% / 12 * 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 125px;
+    cursor: pointer;
+
+}
+
+.link:hover{
+    color: #000;
+    background: #fff;
+}
+
+.link a{
+    text-decoration: none;
+    font-family: SinhalaSangamMN;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #cccccc;
+}
+
+/* fonts of sections */
+.section__title, .item__title, .item__subTitle, .member__fullname, .member__position{
+    text-align: left;
+    color: #000000;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.section__title, .item__title, .member__fullname{
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.item__subTitle, .member__position{
+    font-family: MyanmarSangamMN;
+    font-size: 28px;
+}
+
+.section__title{
+    font-size: 63px;
+    line-height: 1.21;
+    letter-spacing: -0.32px;
+    margin-bottom: 95px;
+}
+
+.item__title{
+    font-size: 39px;
+    line-height: 1.21;
+    letter-spacing: -0.2px;
+    margin-bottom: 27px;
+}
+
+.item__subTitle{
+    line-height: 1.36;
+    letter-spacing: -0.14px;
+    margin-bottom: 35px;
+}
+
+.member__fullname{
+    margin-bottom: 20px;
+    font-size: 31px;
+    line-height: 1.03;
+    letter-spacing: -0.16px;
+}
+
+/* media */
+@media (max-width: 1500px){
+    .member-of-the-team{
+        width: calc(100% / 12 * 6 - 40px);
+    }
+}
+
+@media (max-width: 1000px){
+    .container__item{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .small-img{
+        margin-bottom: 20px;
+        
+    }
+
+    .small-img img{
+        max-width: 110px;
+    }
+
+    .section__title{
+        margin-bottom: 40px;
+    }
+
+    .item__title{
+        margin-bottom: 15px;
+    }
+
+
+    section:nth-child(1){
+        margin-top: 90px;
+    }
+    
+    section:nth-child(2), section:nth-child(3){
+        margin-top: 0px;
+    }
+
+    section:nth-child(4){
+       margin-top: 0px;
+       margin-bottom: 50px;
+    }
+
+    .footer__item{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .social-links{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+
+    .member-of-the-team{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    /* font size */
+    .member__fullname{
+        font-size: 24px;
+    }
+
+    .member__position{
+        font-size: 20px;
+    }
+
+    .section__title, .intro__title{
+        font-size: 42px;
+    }
+
+    .item__title, .intro__subTitle{
+        font-size: 28px;
+    }
+
+    .item__subTitle{
+        font-size: 22px;
+    }
+
+    .link{
+        width: 100%;
+        min-height: 80px;
+    }
+
+    /*  */
+
+    .member__img, .member__img img{
+        width: 90px;
+    }
+    
+    .member__info{
+        margin-left: 20px;
+    }
+
+}
+
+/* Connecting fonts */
+@font-face{
+    font-family: "MyanmarSangamMN";
+    src: url("src/fonts/myanmar-sangam-mn.ttf");
+}
+
+@font-face{
+    font-family: "SinhalaSangamMN";
+    src: url("src/fonts/Sinhala Sangam MN.ttf");
+}
+
+@keyframes zoom{
+    0%{
+        background-size: 100%;
+    }
+
+    50%{
+        background-size: 115%;
+    }
+
+    100%{
+        background-size:  100%;
+    }
+}

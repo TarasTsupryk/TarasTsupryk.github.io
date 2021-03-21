@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <clipPath id="clip-path">
+            <circle id="Ellipse_73" cx="18" cy="18" r="18" fill="#fff" stroke="#03b39c" transform="translate(334 2699)"/>
+        </clipPath>
+        <style>
+            .cls-3{fill:#00a991}
+        </style>
+    </defs>
+    <g id="Mask_Group_9" clip-path="url(#clip-path)" transform="translate(-334 -2699)">
+        <g id="email" transform="translate(334 2699)">
+            <path id="Path_239" d="M25.262 11.571H10.738L18 17.8zm0 0" class="cls-3"/>
+            <path id="Path_240" d="M18 19.286a.642.642 0 0 1-.418-.155l-7.939-6.8v12.1h16.714v-12.1l-7.939 6.8a.642.642 0 0 1-.418.155zm0 0" class="cls-3"/>
+            <path id="Path_241" d="M18 0a18 18 0 1 0 18 18A18 18 0 0 0 18 0zm9.643 25.071a.643.643 0 0 1-.643.643H9a.643.643 0 0 1-.643-.643V10.929A.643.643 0 0 1 9 10.286h18a.643.643 0 0 1 .643.643zm0 0" class="cls-3"/>
+        </g>
+    </g>
+</svg>
