@@ -385,12 +385,3 @@ footer{
     src: url("src/fonts/Sinhala Sangam MN.ttf");
 }
 
-@keyframes zoom{
-    0%{
-        transform: translateX(0);
-    }
-
-    100%{
-        transform: translateX(-25%);
-    }
-}
