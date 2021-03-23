@@ -389,6 +389,9 @@ footer{
     .member-of-the-team{
         flex-wrap: wrap;
     }
+    .wrapper{
+        padding: 0px 5px;
+    }
 }
 /* Connecting fonts */
 @font-face{
