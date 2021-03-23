@@ -183,10 +183,11 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     justify-content: flex-start;
+    padding: 0px 10px;
 }
 
 .social-link{
-    margin: 0px 10px;
+    margin: 10px;
     width: 36px;
     height: 36px;
     cursor: pointer;
