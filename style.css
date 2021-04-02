@@ -156,7 +156,7 @@ section:nth-child(4){
     text-transform: uppercase;
     color: #04907c;
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 1.53;
     letter-spacing: -0.08px;
@@ -165,13 +165,11 @@ section:nth-child(4){
 
 .item__croweddText{
     display: none;
-    transition: 1s;
     opacity: 0;
 }
 
 .show{
     display: inline;
-    transition: 1s;
     opacity: 1;
 }
 
