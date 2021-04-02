@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    /* -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    /* word-break: break-all; */
+    word-break: break-all;  */
 }
 
 /* header */
@@ -97,7 +97,7 @@ section:nth-child(4){
 
 .container__item{
     width: calc(100% / 12 * 4 - 40px);
-    max-width: 500px;
+    max-width: 510px;
     margin: 0px 20px;
 }
 .middle__item{
@@ -145,14 +145,13 @@ section:nth-child(4){
     margin-left: 40px;
 }
 
-.crowded{
-    position: relative;
+.showMore__container{
+    display: flex;
+    justify-content: flex-end;
 }
-.crowded::after{
-    content: 'show more';
-    position: absolute;
-    bottom: -34px;
-    right: 15px;
+.showMore__item{
+    margin-right: 20px;
+    font-family: SinhalaSangamMN;
     text-transform: uppercase;
     color: #04907c;
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
@@ -163,7 +162,17 @@ section:nth-child(4){
     cursor: pointer;
 }
 
+.item__croweddText{
+    display: none;
+    transition: 1s;
+    opacity: 0;
+}
 
+.show{
+    display: inline;
+    transition: 1s;
+    opacity: 1;
+}
 
 /* footer */
 footer{
