@@ -291,6 +291,7 @@ footer{
     line-height: 1.36;
     letter-spacing: -0.14px;
     margin-bottom: 35px;
+    text-align: justify;
 }
 
 .member__fullname{
