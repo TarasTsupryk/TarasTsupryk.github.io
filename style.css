@@ -20,10 +20,9 @@ header{
 
 /* intro */
 .intro{
-    background: url(src/png/website\ mockup@2x.webp) no-repeat;
+    background: url(src/png/website\ mockup@2x.webp);
+    background-repeat: no-repeat;
     background-position: center;
-    background-position-x: 50%;
-    background-position-y: 50%;
     background-size: cover;
     width: 100%;
     min-height: calc(100vh - 72px);
