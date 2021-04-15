@@ -23,7 +23,7 @@ header{
 .intro{
     position: relative;
     width: 100%;
-    min-height: calc(100vh - 72px);
+    min-height: 100vh;
     overflow: hidden;
 }
 
@@ -46,7 +46,7 @@ header{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-height: calc(100vh - 72px);
+    min-height: 100vh;
     background: rgba(0,0,0,0.55);
     padding: 108px 20px 20px;
 }
